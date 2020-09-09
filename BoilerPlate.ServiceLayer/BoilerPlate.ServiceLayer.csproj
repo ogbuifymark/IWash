@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+     <PackageReference Include="Couchbase.Extensions.Caching" Version="1.0.2" />
+    <PackageReference Include="Hangfire" Version="1.6.21" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.1.6" />
+    <PackageReference Include="MimeKit" Version="2.1.2" />
+    <PackageReference Include="Sendgrid" Version="9.10.0" />
+    <PackageReference Include="Stripe.net" Version="36.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoilerPlate.DataLayer\BoilerPlate.DataLayer.csproj" />
+    <ProjectReference Include="..\BoilerPlate.ModelLayer\BoilerPlate.ModelLayer.csproj" />
+    
+     
+  </ItemGroup>
+
+</Project>
