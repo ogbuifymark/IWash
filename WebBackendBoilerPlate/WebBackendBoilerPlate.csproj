@@ -10,7 +10,7 @@
     <PackageReference Include="Couchbase.Extensions.Caching" Version="1.0.2" />
     <PackageReference Include="Hangfire" Version="1.6.21" />
 
-    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.15" />
 
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
 
